@@ -1,11 +1,12 @@
 const mongoose = require('mongoose');
 
-var TesterSchema = new mongoose.Schema({
+var PcbSchema = new mongoose.Schema({
     id : {
         type : String,
         required : 'Required'
     }
     
+
 });
 
-mongoose.model("Tester", TesterSchema);
+mongoose.model("Pcb", PcbSchema);

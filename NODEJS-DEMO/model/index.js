@@ -11,3 +11,4 @@ mongoose.connect("mongodb://localhost:27017/production", { useUnifiedTopology: t
 });
 
 const Tester = require('./testers.model');
+const Pcb = require('./pcb.model');
